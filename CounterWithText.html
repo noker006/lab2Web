@@ -4,7 +4,14 @@
     <script src="CounterWithTextController.js"></script>
     <link rel="stylesheet" href="CounterWithTextStyle.css"/>
 </head>
-<div>
-
+<div class="counterWithTextContainer">
+    <div class="outputContainer">
+        <output class="outputText" type="text" value="Click to increase the counter: ">Click to increase the counter: </output>
+        <output id="counterOutput" class="counterOutput" type="number" value="0">0</output>
+    </div>
+    <div class="counterButtonContainer">
+        <button onclick="increase('+')" class="counterButton"> + </button>
+        <button class="counterButton"> - </button>
+    </div>
 </div>
 </html>
