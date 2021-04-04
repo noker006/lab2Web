@@ -7,11 +7,11 @@
 <div class="counterWithTextContainer">
     <div class="outputContainer">
         <output class="outputText" type="text" value="Click to increase the counter: ">Click to increase the counter: </output>
-        <output id="counterOutput" class="counterOutput" type="number" value="0">0</output>
+        <output class="counterOutput" type="number" value="0" id="counterOutput">0</output>
     </div>
     <div class="counterButtonContainer">
-        <button onclick="increase('+')" class="counterButton"> + </button>
-        <button class="counterButton"> - </button>
+        <button onclick="increaseCounter()" class="counterButton" id="increaseButton"> + </button>
+        <button onclick="lessCounter()" class="counterButton" id="lessButton"> - </button>
     </div>
 </div>
 </html>
